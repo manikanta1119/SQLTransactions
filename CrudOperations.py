@@ -4,7 +4,7 @@
 
 import pyodbc
 
-conn= pyodbc.connect('Driver={SQL Server};''Server=US5CD9011ZYR\MSSQLMANI;''Database=Demo;''Trusted_Connection=yes;')
+conn= pyodbc.connect('Driver={SQL Server};''Server=US5CD9011ZYR/MSSQLMANI;''Database=Demo;''Trusted_Connection=yes;')
 
 cursor= conn.cursor()
 
